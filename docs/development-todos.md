@@ -5,58 +5,58 @@
 ## フェーズ1: プロジェクト初期化・環境構築
 
 ### 1.1 プロジェクト構造の作成
-- [ ] プロジェクトルートディレクトリの作成
-- [ ] `package.json`の作成と初期化
-- [ ] ディレクトリ構造の作成
-  - [ ] `public/`ディレクトリ
-  - [ ] `public/icons/`ディレクトリ
-  - [ ] `src/`ディレクトリ
-  - [ ] `src/popup/`ディレクトリ
-  - [ ] `src/background/`ディレクトリ
-  - [ ] `src/content/`ディレクトリ
-  - [ ] `src/shared/`ディレクトリ
-  - [ ] `dist/`ディレクトリ（.gitignoreに追加）
+- [x] プロジェクトルートディレクトリの作成
+- [x] `package.json`の作成と初期化
+- [x] ディレクトリ構造の作成
+  - [x] `public/`ディレクトリ
+  - [x] `public/icons/`ディレクトリ
+  - [x] `src/`ディレクトリ
+  - [x] `src/popup/`ディレクトリ
+  - [x] `src/background/`ディレクトリ
+  - [x] `src/content/`ディレクトリ
+  - [x] `src/shared/`ディレクトリ
+  - [x] `dist/`ディレクトリ（.gitignoreに追加）
 
 ### 1.2 依存パッケージのインストール
-- [ ] React関連パッケージのインストール
-  - [ ] `react` (^18.2.0)
-  - [ ] `react-dom` (^18.2.0)
-- [ ] TypeScript関連パッケージのインストール
-  - [ ] `typescript` (^5.3.0)
-  - [ ] `@types/react` (^18.2.0)
-  - [ ] `@types/react-dom` (^18.2.0)
-  - [ ] `@types/chrome` (^0.0.268)
-- [ ] ビルドツールのインストール
-  - [ ] `vite` (^5.0.0)
-  - [ ] `@vitejs/plugin-react` (^4.2.0)
-  - [ ] `vite-plugin-web-extension` (^4.1.0)
-- [ ] コード品質ツールのインストール
-  - [ ] `@biomejs/biome` (^1.9.0)
+- [x] React関連パッケージのインストール
+  - [x] `react` (^18.2.0)
+  - [x] `react-dom` (^18.2.0)
+- [x] TypeScript関連パッケージのインストール
+  - [x] `typescript` (^5.3.0)
+  - [x] `@types/react` (^18.2.0)
+  - [x] `@types/react-dom` (^18.2.0)
+  - [x] `@types/chrome` (^0.0.268)
+- [x] ビルドツールのインストール
+  - [x] `vite` (^5.0.0)
+  - [x] `@vitejs/plugin-react` (^4.2.0)
+  - [x] `vite-plugin-web-extension` (^4.1.0)
+- [x] コード品質ツールのインストール
+  - [x] `@biomejs/biome` (^1.9.0)
 
 ### 1.3 設定ファイルの作成
-- [ ] `tsconfig.json`の作成と設定
-  - [ ] TypeScriptコンパイラオプションの設定
-  - [ ] モジュール解決の設定
-  - [ ] 型定義の設定
-- [ ] `vite.config.ts`の作成と設定
-  - [ ] マルチエントリーポイントの設定（popup, background, content）
-  - [ ] Reactプラグインの設定
-  - [ ] Chrome拡張機能用ビルド設定
-  - [ ] 出力先の設定（dist/）
-- [ ] `biome.json`の作成と設定
-  - [ ] リンター設定
-  - [ ] フォーマッター設定
-  - [ ] インポート整理の設定
-- [ ] `.gitignore`の作成
-  - [ ] `node_modules/`の追加
-  - [ ] `dist/`の追加
-  - [ ] その他一般的な除外パターン
+- [x] `tsconfig.json`の作成と設定
+  - [x] TypeScriptコンパイラオプションの設定
+  - [x] モジュール解決の設定
+  - [x] 型定義の設定
+- [x] `vite.config.ts`の作成と設定
+  - [x] マルチエントリーポイントの設定（popup, background, content）
+  - [x] Reactプラグインの設定
+  - [x] Chrome拡張機能用ビルド設定
+  - [x] 出力先の設定（dist/）
+- [x] `biome.json`の作成と設定
+  - [x] リンター設定
+  - [x] フォーマッター設定
+  - [x] インポート整理の設定
+- [x] `.gitignore`の作成
+  - [x] `node_modules/`の追加
+  - [x] `dist/`の追加
+  - [x] その他一般的な除外パターン
 
 ### 1.4 package.jsonスクリプトの設定
-- [ ] `npm run dev`スクリプトの追加（開発モード）
-- [ ] `npm run build`スクリプトの追加（本番ビルド）
-- [ ] `npm run lint`スクリプトの追加（Biome lint）
-- [ ] `npm run format`スクリプトの追加（Biome format）
+- [x] `npm run dev`スクリプトの追加（開発モード）
+- [x] `npm run build`スクリプトの追加（本番ビルド）
+- [x] `npm run lint`スクリプトの追加（Biome lint）
+- [x] `npm run format`スクリプトの追加（Biome format）
 
 ---
 
