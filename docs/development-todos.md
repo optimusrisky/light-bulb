@@ -63,34 +63,34 @@
 ## フェーズ2: マニフェストファイルとアイコンの準備
 
 ### 2.1 manifest.jsonの作成
-- [ ] `public/manifest.json`の作成
-- [ ] 基本情報の設定
-  - [ ] `manifest_version: 3`の設定
-  - [ ] `name: "Light/Dark Mode Toggle"`の設定
-  - [ ] `version: "1.0.0"`の設定
-  - [ ] `description`の設定
-- [ ] 権限設定
-  - [ ] `permissions: ["storage", "activeTab"]`の設定
-  - [ ] `host_permissions: ["<all_urls>"]`の設定
-- [ ] セキュリティポリシーの設定
-  - [ ] `content_security_policy`の設定
-- [ ] バックグラウンドスクリプトの設定
-  - [ ] `background.service_worker: "background.js"`の設定
-  - [ ] `background.type: "module"`の設定
-- [ ] コンテンツスクリプトの設定
-  - [ ] `content_scripts`配列の作成
-  - [ ] `matches: ["<all_urls>"]`の設定
-  - [ ] `js: ["content.js"]`の設定
-  - [ ] `run_at: "document_start"`の設定
-  - [ ] `all_frames: false`の設定
-  - [ ] 注意: `css`フィールドは不要（ブラウザのネイティブ機能のみ使用）
-- [ ] アクション設定
-  - [ ] `action.default_popup: "popup.html"`の設定
-  - [ ] `action.default_icon`の設定（16, 48, 128）
-- [ ] アイコン設定
-  - [ ] `icons`の設定（16, 48, 128）
-- [ ] その他の設定
-  - [ ] `web_accessible_resources: []`の設定
+- [x] `public/manifest.json`の作成
+- [x] 基本情報の設定
+  - [x] `manifest_version: 3`の設定
+  - [x] `name: "Light/Dark Mode Toggle"`の設定
+  - [x] `version: "1.0.0"`の設定
+  - [x] `description`の設定
+- [x] 権限設定
+  - [x] `permissions: ["storage", "activeTab"]`の設定
+  - [x] `host_permissions: ["<all_urls>"]`の設定
+- [x] セキュリティポリシーの設定
+  - [x] `content_security_policy`の設定
+- [x] バックグラウンドスクリプトの設定
+  - [x] `background.service_worker: "background.js"`の設定
+  - [x] `background.type: "module"`の設定
+- [x] コンテンツスクリプトの設定
+  - [x] `content_scripts`配列の作成
+  - [x] `matches: ["<all_urls>"]`の設定
+  - [x] `js: ["content.js"]`の設定
+  - [x] `run_at: "document_start"`の設定
+  - [x] `all_frames: false`の設定
+  - [x] 注意: `css`フィールドは不要（ブラウザのネイティブ機能のみ使用）
+- [x] アクション設定
+  - [x] `action.default_popup: "popup.html"`の設定
+  - [x] `action.default_icon`の設定（16, 48, 128）
+- [x] アイコン設定
+  - [x] `icons`の設定（16, 48, 128）
+- [x] その他の設定
+  - [x] `web_accessible_resources: []`の設定
 
 ### 2.2 アイコンの準備
 - [ ] アイコンデザインの作成または取得
