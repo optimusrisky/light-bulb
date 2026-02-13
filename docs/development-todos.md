@@ -93,13 +93,13 @@
   - [x] `web_accessible_resources: []`の設定
 
 ### 2.2 アイコンの準備
-- [ ] アイコンデザインの作成または取得
-- [ ] 各サイズのアイコンファイルの作成
-  - [ ] `public/icons/icon16.png`の作成
-  - [ ] `public/icons/icon48.png`の作成
-  - [ ] `public/icons/icon128.png`の作成
-  - [ ] `public/icons/icon-light.png`の作成（ライトモード用）
-  - [ ] `public/icons/icon-dark.png`の作成（ダークモード用）
+- [x] アイコンデザインの作成または取得
+- [x] 各サイズのアイコンファイルの作成
+  - [x] `public/icons/icon16.png`の作成
+  - [x] `public/icons/icon48.png`の作成
+  - [x] `public/icons/icon128.png`の作成
+  - [x] `public/icons/icon-light.png`の作成（ライトモード用）
+  - [x] `public/icons/icon-dark.png`の作成（ダークモード用）
 
 ---
 
