@@ -118,31 +118,31 @@
 - [x] `src/vite-env.d.ts`の作成（Viteの型定義）
 
 ### 3.2 ストレージユーティリティの実装
-- [ ] `src/shared/storage.ts`の作成
-- [ ] ストレージ読み込み関数の実装
-  - [ ] `getMode()`: 現在のモードを取得
-  - [ ] `getStorageData()`: ストレージデータ全体を取得
-- [ ] ストレージ書き込み関数の実装
-  - [ ] `setMode(mode: ThemeMode)`: モードを設定
-  - [ ] `toggleMode()`: モードを切り替え
-  - [ ] `setStorageData(data: StorageData)`: ストレージデータを設定
-- [ ] デフォルト値の設定
-  - [ ] 初回起動時のデフォルトモード（"light"）の設定
-- [ ] エラーハンドリングの実装
-  - [ ] `chrome.runtime.lastError`のチェック
-  - [ ] エラーログの出力
+- [x] `src/shared/storage.ts`の作成
+- [x] ストレージ読み込み関数の実装
+  - [x] `getMode()`: 現在のモードを取得
+  - [x] `getStorageData()`: ストレージデータ全体を取得
+- [x] ストレージ書き込み関数の実装
+  - [x] `setMode(mode: ThemeMode)`: モードを設定
+  - [x] `toggleMode()`: モードを切り替え
+  - [x] `setStorageData(data: StorageData)`: ストレージデータを設定
+- [x] デフォルト値の設定
+  - [x] 初回起動時のデフォルトモード（"light"）の設定
+- [x] エラーハンドリングの実装
+  - [x] `chrome.runtime.lastError`のチェック
+  - [x] エラーログの出力
 
 ### 3.3 メッセージングユーティリティの実装
-- [ ] `src/shared/messages.ts`の作成
-- [ ] メッセージ送信関数の実装
-  - [ ] `sendMessage<T>(message: MessagePayload): Promise<T>`
-  - [ ] エラーハンドリングの実装
-  - [ ] `chrome.runtime.lastError`のチェック
-- [ ] メッセージ受信リスナーの実装
-  - [ ] `onMessage(callback)`関数の実装
-  - [ ] 非同期処理対応（`true`を返して`sendResponse`を保持）
-- [ ] 型安全性の確保
-  - [ ] メッセージタイプの型チェック
+- [x] `src/shared/messages.ts`の作成
+- [x] メッセージ送信関数の実装
+  - [x] `sendMessage<T>(message: MessagePayload): Promise<T>`
+  - [x] エラーハンドリングの実装
+  - [x] `chrome.runtime.lastError`のチェック
+- [x] メッセージ受信リスナーの実装
+  - [x] `onMessage(callback)`関数の実装
+  - [x] 非同期処理対応（`true`を返して`sendResponse`を保持）
+- [x] 型安全性の確保
+  - [x] メッセージタイプの型チェック
 
 ---
 
