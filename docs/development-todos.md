@@ -106,16 +106,16 @@
 ## フェーズ3: 型定義と共通ユーティリティの実装
 
 ### 3.1 型定義の作成
-- [ ] `src/shared/types.ts`の作成
-  - [ ] `ThemeMode`型の定義（"light" | "dark"）
-  - [ ] `StorageData`インターフェースの定義
-    - [ ] `mode: ThemeMode`
-    - [ ] `enabled: boolean`
-  - [ ] `MessagePayload`インターフェースの定義
-    - [ ] `type: "TOGGLE_MODE" | "GET_MODE" | "APPLY_MODE"`
-    - [ ] `mode?: ThemeMode`
-- [ ] `src/background/types.ts`の作成（必要に応じて）
-- [ ] `src/vite-env.d.ts`の作成（Viteの型定義）
+- [x] `src/shared/types.ts`の作成
+  - [x] `ThemeMode`型の定義（"light" | "dark"）
+  - [x] `StorageData`インターフェースの定義
+    - [x] `mode: ThemeMode`
+    - [x] `enabled: boolean`
+  - [x] `MessagePayload`インターフェースの定義
+    - [x] `type: "TOGGLE_MODE" | "GET_MODE" | "APPLY_MODE"`
+    - [x] `mode?: ThemeMode`
+- [x] `src/background/types.ts`の作成（必要に応じて）
+- [x] `src/vite-env.d.ts`の作成（Viteの型定義）
 
 ### 3.2 ストレージユーティリティの実装
 - [ ] `src/shared/storage.ts`の作成
